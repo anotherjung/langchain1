@@ -28,6 +28,7 @@ See [docs/specs/chain7.md](docs/specs/chain7.md) for details on chain7 advanced 
 
 See [docs/specs/chain8.md](docs/specs/chain8.md) for details on chain8 local Ollama integration.
 
-touch docs/specs/chain9.md chain9.js
+See [docs/specs/chain9.md](docs/specs/chain9.md) for details on chain9 callback monitoring and usage tracking.
 
+touch docs/specs/chain10.md chain10.js
 
