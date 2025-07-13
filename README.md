@@ -26,5 +26,8 @@ See [docs/specs/chain6.md](docs/specs/chain6.md) for details on chain6 multimoda
 
 See [docs/specs/chain7.md](docs/specs/chain7.md) for details on chain7 advanced prompt pipeline.
 
-touch docs/specs/chain8.md chain8.js
+See [docs/specs/chain8.md](docs/specs/chain8.md) for details on chain8 local Ollama integration.
+
+touch docs/specs/chain9.md chain9.js
+
 
