@@ -24,5 +24,7 @@ See [docs/specs/chain5.md](docs/specs/chain5.md) for details on fromTemplate cla
 
 See [docs/specs/chain6.md](docs/specs/chain6.md) for details on chain6 multimodal image analysis.
 
-touch docs/specs/chain7.md chain7.js
+See [docs/specs/chain7.md](docs/specs/chain7.md) for details on chain7 advanced prompt pipeline.
+
+touch docs/specs/chain8.md chain8.js
 
