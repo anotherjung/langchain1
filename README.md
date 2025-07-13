@@ -1,41 +1,79 @@
-# Setup
+# LangChain Examples Collection
 
-npm init -y 
+A comprehensive collection of LangChain implementations demonstrating various AI integration patterns, from basic prompts to advanced multi-stage pipelines.
 
-npm i langchain @langchain/core
+## Quick Start
 
-"overrides": {
-"@langchain/core": {
-    "version": "0.3.62"
-}
+```bash
+npm init -y
+npm install langchain @langchain/core @langchain/google-genai @langchain/ollama dotenv
+```
 
-npm install @langchain/google-genai
-GOOGLE_API_KEY=your-api-key  
+Create `.env` file:
+```
+GOOGLE_API_KEY=your-google-api-key
+```
 
-See [docs/specs/chain.md](docs/specs/chain.md) for system prompt and [chain] usage.
+## Chain Examples
 
-See [docs/specs/chain2.md](docs/specs/chain2.md) for details on human message architecture and usage in chain2.
+### Basic Implementations
+- **chain.js** - Simple prompt template with Google GenAI
+- **chain2.js** - Direct message handling with dotenv integration
+- **chain3.js** - Streaming translation with command-line arguments
+- **chain4.js** - String output parsing for clean responses
+- **chain5.js** - Basic PromptTemplate formatting (no AI model)
 
-See [docs/specs/chain3.md](docs/specs/chain3.md) for streaming for translations. 
+### Advanced Features
+- **chain6.js** - Multimodal image analysis with base64 encoding
+- **chain7.js** - Pipeline prompt composition for movie recommendations
+- **chain8.js** - Local Ollama integration (no API keys needed)
+- **chain9.js** - Callback monitoring and token usage tracking
+- **chain10.js** - Request cancellation with abort signals
 
-See [docs/specs/chain4.md](docs/specs/chain4.md) for details on chain4 string parser for document outputs.
+### Output Parsing & Data Structures
+- **chain11.js** - String and comma-separated list parsers
+- **chain12.js** - JSON output parsing with RunnableSequence
+- **chain13.js** - Multi-stage chain composition (Ollama)
+- **chain13g.js** - Multi-stage chain composition (Google GenAI)
 
-See [docs/specs/chain5.md](docs/specs/chain5.md) for details on fromTemplate class short code
+## Key Concepts Demonstrated
 
-See [docs/specs/chain6.md](docs/specs/chain6.md) for details on chain6 multimodal image analysis.
+- **Basic Prompting**: Template variables and model invocation
+- **Streaming Responses**: Real-time output processing
+- **Local vs Cloud**: Ollama vs Google GenAI comparison
+- **Output Parsing**: String, JSON, and list data extraction
+- **Chain Composition**: Multi-stage processing pipelines
+- **Error Handling**: Timeouts, cancellation, and graceful failures
+- **Multimodal**: Text + image processing capabilities
 
-See [docs/specs/chain7.md](docs/specs/chain7.md) for details on chain7 advanced prompt pipeline.
+## Running Examples
 
-See [docs/specs/chain8.md](docs/specs/chain8.md) for details on chain8 local Ollama integration.
+```bash
+# Google GenAI examples (require API key)
+node chain.js
+node chain2.js
+node chain3.js "Hello world!" "Spanish"
 
-See [docs/specs/chain9.md](docs/specs/chain9.md) for details on chain9 callback monitoring and usage tracking.
+# Local Ollama examples (require Ollama service)
+ollama pull gemma3:4b-it-qat
+node chain8.js
+node chain11.js
 
-See [docs/specs/chain10.md](docs/specs/chain10.md) for details on chain10 cancellation and abort signal usage.
+# Advanced features
+node chain6.js  # Image analysis
+node chain9.js  # Usage tracking
+node chain10.js # Cancellation demo
+```
 
-See [docs/specs/chain11.md](docs/specs/chain11.md) for details on chain11 output parser usage and implementation.
+## Documentation
 
-See [docs/specs/chain12.md](docs/specs/chain12.md) for details on chain12 advanced JSON output parsing and local Ollama integration.
+Detailed specifications available in `docs/specs/` directory:
+- Each chain has corresponding documentation explaining architecture and usage
+- Examples include code patterns, configuration options, and best practices
 
-See [chain12.js](chain12.js) for implementation of nickname suggestion and pet profile generation using prompt templates, local Ollama model, and JSON output parsing.
+## Dependencies
 
-touch docs/specs/chain13.md chain13.js
+- **@langchain/core** - Core LangChain functionality
+- **@langchain/google-genai** - Google Generative AI integration
+- **@langchain/ollama** - Local Ollama model integration
+- **dotenv** - Environment variable management
