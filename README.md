@@ -20,5 +20,9 @@ See [docs/specs/chain3.md](docs/specs/chain3.md) for streaming for translations.
 
 See [docs/specs/chain4.md](docs/specs/chain4.md) for details on chain4 string parser for document outputs.
 
-touch docs/specschain5.md chain5.js
+See [docs/specs/chain5.md](docs/specs/chain5.md) for details on fromTemplate class short code
+
+See [docs/specs/chain6.md](docs/specs/chain6.md) for details on chain6 multimodal image analysis.
+
+touch docs/specs/chain7.md chain7.js
 
