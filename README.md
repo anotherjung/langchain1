@@ -34,4 +34,8 @@ See [docs/specs/chain10.md](docs/specs/chain10.md) for details on chain10 cancel
 
 See [docs/specs/chain11.md](docs/specs/chain11.md) for details on chain11 output parser usage and implementation.
 
-touch docs/specs/chain12.md chain12.js
+See [docs/specs/chain12.md](docs/specs/chain12.md) for details on chain12 advanced JSON output parsing and local Ollama integration.
+
+See [chain12.js](chain12.js) for implementation of nickname suggestion and pet profile generation using prompt templates, local Ollama model, and JSON output parsing.
+
+touch docs/specs/chain13.md chain13.js
