@@ -32,4 +32,6 @@ See [docs/specs/chain9.md](docs/specs/chain9.md) for details on chain9 callback 
 
 See [docs/specs/chain10.md](docs/specs/chain10.md) for details on chain10 cancellation and abort signal usage.
 
-touch docs/specs/chain11.md chain11.js
+See [docs/specs/chain11.md](docs/specs/chain11.md) for details on chain11 output parser usage and implementation.
+
+touch docs/specs/chain12.md chain12.js
