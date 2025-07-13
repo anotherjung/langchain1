@@ -17,24 +17,24 @@ GOOGLE_API_KEY=your-google-api-key
 ## Chain Examples
 
 ### Basic Implementations
-- **chain.js** - Simple prompt template with Google GenAI
-- **chain2.js** - Direct message handling with dotenv integration
-- **chain3.js** - Streaming translation with command-line arguments
-- **chain4.js** - String output parsing for clean responses
-- **chain5.js** - Basic PromptTemplate formatting (no AI model)
+- **chain.js** - Simple prompt template with Google GenAI ([docs](docs/specs/chain.md))
+- **chain2.js** - Direct message handling with dotenv integration ([docs](docs/specs/chain2.md))
+- **chain3.js** - Streaming translation with command-line arguments ([docs](docs/specs/chain3.md))
+- **chain4.js** - String output parsing for clean responses ([docs](docs/specs/chain4.md))
+- **chain5.js** - Basic PromptTemplate formatting (no AI model) ([docs](docs/specs/chain5.md))
 
 ### Advanced Features
-- **chain6.js** - Multimodal image analysis with base64 encoding
-- **chain7.js** - Pipeline prompt composition for movie recommendations
-- **chain8.js** - Local Ollama integration (no API keys needed)
-- **chain9.js** - Callback monitoring and token usage tracking
-- **chain10.js** - Request cancellation with abort signals
+- **chain6.js** - Multimodal image analysis with base64 encoding ([docs](docs/specs/chain6.md))
+- **chain7.js** - Pipeline prompt composition for movie recommendations ([docs](docs/specs/chain7.md))
+- **chain8.js** - Local Ollama integration (no API keys needed) ([docs](docs/specs/chain8.md))
+- **chain9.js** - Callback monitoring and token usage tracking ([docs](docs/specs/chain9.md))
+- **chain10.js** - Request cancellation with abort signals ([docs](docs/specs/chain10.md))
 
 ### Output Parsing & Data Structures
-- **chain11.js** - String and comma-separated list parsers
-- **chain12.js** - JSON output parsing with RunnableSequence
-- **chain13.js** - Multi-stage chain composition (Ollama)
-- **chain13g.js** - Multi-stage chain composition (Google GenAI)
+- **chain11.js** - String and comma-separated list parsers ([docs](docs/specs/chain11.md))
+- **chain12.js** - JSON output parsing with RunnableSequence ([docs](docs/specs/chain12.md))
+- **chain13.js** - Multi-stage chain composition (Ollama) ([docs](docs/specs/chain13.md))
+- **chain13g.js** - Multi-stage chain composition (Google GenAI) ([docs](docs/specs/chain13.md))
 
 ## Key Concepts Demonstrated
 
