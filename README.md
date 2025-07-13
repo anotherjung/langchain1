@@ -30,5 +30,6 @@ See [docs/specs/chain8.md](docs/specs/chain8.md) for details on chain8 local Oll
 
 See [docs/specs/chain9.md](docs/specs/chain9.md) for details on chain9 callback monitoring and usage tracking.
 
-touch docs/specs/chain10.md chain10.js
+See [docs/specs/chain10.md](docs/specs/chain10.md) for details on chain10 cancellation and abort signal usage.
 
+touch docs/specs/chain11.md chain11.js
